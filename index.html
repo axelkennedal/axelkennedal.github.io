@@ -6,7 +6,7 @@ title: {{ site.name }}
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-    <h1>{{ post.title }}</h1>
+    <h1 href="{{ site.url | append: post.url }}">{{ post.title }}</h1>
     <p class="meta">{{ post.date | date_to_string }} by Axel Kennedal</p>
     {{ post.content }}
     </hr>
