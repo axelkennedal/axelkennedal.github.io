@@ -3,10 +3,14 @@ layout: default
 title: {{ site.name }}
 ---
 
+<style>
+    h1 > a { color: inherit;}
+</style>
+
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-    <h1 href="{{ site.url | append: post.url }}">{{ post.title }}</h1>
+    <h1><a href="{{ site.url | append: post.url }}">{{ post.title }}</a></h1>
     <p class="meta">{{ post.date | date_to_string }} by Axel Kennedal</p>
     {{ post.content }}
     </hr>
