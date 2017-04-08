@@ -53,8 +53,8 @@ As you notice I introduced a new property of the document; ```header-includes```
 Below is what the PDF looks like.
 
 <div style="height: 10px;"></div>
-<img src="pandoc_example1.png" style="width:50%;border: 1px solid #EEE;"/>
-<img src="pandoc_example2.png" style="width:50%; float:left; border: 1px solid #EEE;"/>
+<img src="/assets/pandoc_example1.png" style="width:50%;border: 1px solid #EEE;"/>
+<img src="/assets/pandoc_example2.png" style="width:50%; float:left; border: 1px solid #EEE;"/>
 <div style="height: 10px;"></div>
 
 **That's pretty much it.** And oh yeah, you (almost) everything you can do in markdown, you can do here and convert to LaTeX:ish documents, like tables, lists and so on. If you find anything worth adding to this tutorial, feel free to fork and make a pull request with your changes. I've for an example seen you can use templates to style the PDF:s in more detail, might be worth to check out.
