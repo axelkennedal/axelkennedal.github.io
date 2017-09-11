@@ -1,5 +1,6 @@
-# How make and Makefiles work in C
-
+---
+title: How make and Makefiles work in C
+---
 *Make is an useful terminal tool which is used to speed up the development process in C. More particularly it is used to speed up compiling.*
 
 As you may know the usual way to compile a .c source file would be something like:
